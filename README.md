@@ -1,2 +1,2 @@
 # Carbon-footprint-tracker
-Carbon Footprint Tracket
+Carbon Footprint Tracker
