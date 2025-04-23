@@ -1,4 +1,3 @@
-gunicorn your_application.wsgi
 
 import streamlit as st
 import pandas as pd
