@@ -582,3 +582,18 @@ st.markdown("---")
 st.markdown("### 🌍 Carbon Footprint Calculator")
 st.markdown("Helping you understand and reduce your environmental impact.")
 st.markdown("Data sources: Various international environmental agencies and research publications.")
+
+
+# At the end of your_application.py
+app = st
+
+if __name__ == "__main__":
+    # This runs when executed directly (not via Gunicorn)
+    import streamlit.cli as stcli
+    import sys
+    
+    def main():
+        sys.argv = ["streamlit", "run", __file__]
+        sys.exit(stcli.main())
+    
+    main()
